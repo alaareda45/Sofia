@@ -632,6 +632,12 @@ ul {
   .features .container{
     grid-template-columns: auto ;
   }
+  .features .container .feature-box .imge::after{
+    border-width: 0 0 170px 700px;
+  }
+  .features .container .feature-box:hover .imge::after{
+    border-width: 0 700px 170px 0;
+  }
 }
 /*end features*/
 /*start testimonials*/
